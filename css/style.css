@@ -1,0 +1,7 @@
+.failed {
+    transform: translate(-10px, 25px)  rotate( -25deg); 
+    opacity: 50%;
+}
+li{
+    transform: translate(40px, -150px);
+}

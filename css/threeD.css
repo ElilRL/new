@@ -1,0 +1,34 @@
+#myDiv {
+    transform: rotateX(0);
+    transition-duration: 2s;
+  }
+  
+  div{
+      width: 300px;
+      height: 100px;
+      background-color: aquamarine;
+      border: 1px solid red;
+  }
+  #myDiv:hover {
+      transform: rotateX(125deg);
+  }
+  h1{
+      text-align: center;
+  }
+  #myDiv:hover{
+    transform: rotateX(180deg);
+  }
+  #myDiv2 {
+    transform: rotateY(0deg);
+    transition-duration: 2s;
+  }
+  #myDiv2:hover{
+    transform: rotateY(180deg);
+  }
+  #myDiv3{
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+  }
+  #myDiv3:hover{
+    transform: rotateZ(180deg);
+  }
